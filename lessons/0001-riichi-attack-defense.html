@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>第一课：用两道门完成立直与攻防判断</title>
+  <link rel="stylesheet" href="../assets/course.css">
+</head>
+<body>
+<main>
+  <section class="hero">
+    <div class="eyebrow">第一课 · 5 秒决策框架</div>
+    <h1>先给默认答案<br>再寻找例外</h1>
+    <p class="lead">这本书最值得带上牌桌的不是一大叠局收支表，而是两道门：先判断自己是否拥有值得立直或进攻的基础，再检查有没有足以推翻默认答案的例外</p>
+    <p class="meta">学习目标：能在没有完整计算器的牌局中，稳定完成先制立直、追立直与弃和判断</p>
+  </section>
+
+  <h2>第一道门：无人立直时，先问“为什么不立直”</h2>
+  <div class="grid">
+    <article class="card">
+      <span class="tag">默认答案</span>
+      <h3>先制听牌通常立直</h3>
+      <p class="rule">两面立直是基准，愚形和字牌听也不应因害怕被追立或放铳而自动默听</p>
+      <p>立直提高打点，同时让对手警戒；虽然和率会下降，却不会像直觉想象得那么剧烈。先制愚形立直遭追立的概率约为六局一次，放铳满贯以上约三十至四十局一次</p>
+      <p class="source">依据：原书专题 1–2，P22–32（<a href="../《统计学麻雀战术》.pdf#page=15">PDF 第15–25页</a>）</p>
+    </article>
+    <article class="card">
+      <span class="tag">例外开关</span>
+      <h3>只有三类理由足以让你停手</h3>
+      <p><strong>打点已封顶</strong>：默听已确定满贯或更高，立直提升很小</p>
+      <p><strong>短期可显著改良</strong>：早巡、有明确四连形，能从愚形改为断幺两面</p>
+      <p><strong>顺位目标压倒局收支</strong>：例如 All Last 已经 top，需要优先固定名次</p>
+      <p class="source">依据：原书专题 1、3、11，P24–25、33–37、72–75</p>
+    </article>
+  </div>
+
+  <div class="callout"><strong>记忆句：</strong>好型直接立，愚形别先怕；默听要有收益，不是为了安心</div>
+
+  <h2>第二道门：有人立直时，不问“会不会亏”，而问“比弃和少亏多少”</h2>
+  <div class="flow">
+    <article class="decision">
+      <strong>先确定完全弃和的基线</strong>
+      <p>书中的一人立直模型里，子家对立直全弃约为 -1100 点，对亲家立直全弃约为 -1700 点。因此，进攻局收支即使是负数，只要高于弃和基线，仍可能是正确进攻</p>
+    </article>
+    <article class="decision">
+      <strong>再看自己是否听牌，以及听牌形</strong>
+      <p>一家立直时，两面听牌原则上追立；愚形则以打点换和率。两家立直时，未听牌应等待点棒横向移动，良型听牌仍可参战，愚形要大幅提高门槛</p>
+    </article>
+    <article class="decision">
+      <strong>最后用四个修正量调整</strong>
+      <p>依次看：要切的牌有多危险、自己是否亲家、打点有几番、是否存在必须保住顺位的特殊场况。不要先被“局收支为负”吓退</p>
+    </article>
+  </div>
+  <p class="source">依据：原书专题 13–19，P80–137（<a href="../《统计学麻雀战术》.pdf#page=72">PDF 第72–127页</a>）</p>
+
+  <h2>把规则压缩成一张心智表</h2>
+  <div class="table-wrap">
+    <table>
+      <thead><tr><th>局面</th><th>默认动作</th><th>改变答案的重点</th></tr></thead>
+      <tbody>
+        <tr><td>无人立直，先制两面</td><td>立直</td><td>默听已满贯以上；All Last 固定顺位</td></tr>
+        <tr><td>无人立直，先制愚形</td><td>多数立直</td><td>早巡明确改良；两枚现的非幺九差愚形</td></tr>
+        <tr><td>一家立直，自己两面听牌</td><td>追立直</td><td>极低打点且必须切高危险牌；大幅领先</td></tr>
+        <tr><td>一家立直，自己愚形听牌</td><td>1番守、2番边界、3番攻</td><td>亲家身份让进攻更有利；危险度与巡目修正</td></tr>
+        <tr><td>两家立直，自己未听牌</td><td>弃和</td><td>不要抢着当第三个承担风险的人</td></tr>
+        <tr><td>两家立直，自己良型听牌</td><td>可以进攻</td><td>两家都要切危险牌，第一张尤其关键</td></tr>
+        <tr><td>两家立直，自己愚形听牌</td><td>多数弃和</td><td>通常需要约4番以上；亲家门槛较低</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <h2>即时检索练习</h2>
+  <section class="quiz" data-answer="0" data-why="先制两面2600是典型的立即立直，不需要为偶发的追立或放铳放弃长期收益">
+    <h3>1. 第8巡，先制两面2600，外部无人立直</h3>
+    <div class="choices"><button>立即立直</button><button>继续默听</button></div>
+    <p class="feedback" aria-live="polite"></p>
+  </section>
+  <section class="quiz" data-answer="1" data-why="两家立直时，子家愚形1番远低于本书给出的进攻门槛，应让点棒优先横向移动">
+    <h3>2. 两家立直，自己子家愚形1番听牌</h3>
+    <div class="choices"><button>继续进攻</button><button>完全弃和</button></div>
+    <p class="feedback" aria-live="polite"></p>
+  </section>
+  <section class="quiz" data-answer="0" data-why="字牌单骑在一枚切时和率最好；若是一枚切与生张二选一，应优先一枚切">
+    <h3>3. 七对子字牌单骑：一枚切与生张二选一</h3>
+    <div class="choices"><button>选一枚切</button><button>选完全生</button></div>
+    <p class="feedback" aria-live="polite"></p>
+  </section>
+
+  <div class="callout">做完后不要只看对错：请尝试用“默认规则 + 例外开关”各复述一次理由。若有一题无法立即解释，直接问我，我们就从那一题继续</div>
+
+  <nav class="footer-nav">
+    <a href="../reference/riichi-attack-defense.html">打开完整速查表 →</a>
+    <a href="../《统计学麻雀战术》.pdf">阅读主要来源 →</a>
+  </nav>
+</main>
+<script>
+document.querySelectorAll('.quiz').forEach((quiz) => {
+  const answer = Number(quiz.dataset.answer);
+  const feedback = quiz.querySelector('.feedback');
+  quiz.querySelectorAll('button').forEach((button, index) => {
+    button.addEventListener('click', () => {
+      const ok = index === answer;
+      feedback.className = `feedback ${ok ? 'good' : 'bad'}`;
+      feedback.textContent = `${ok ? '正确' : '再想一步'}：${quiz.dataset.why}`;
+    });
+  });
+});
+</script>
+</body>
+</html>
